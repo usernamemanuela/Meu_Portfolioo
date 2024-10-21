@@ -1,0 +1,41 @@
+header a {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    color: black; 
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 60px;
+    border: rgb(207, 163, 40) solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+header h1{
+    font-family: Arial, sans-serif;
+    
+}
+header a:hover {
+    background-color: rgb(207, 163, 40);
+    color: white;
+}
+.caixa-texto {
+    background-color: rgb(216, 181, 23);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 130px;
+    border-right: 130px;
+}
+img{
+    margin-top: 10px;
+}
+section p{
+    font-family: Arial, sans-serif;
+    margin-left: 100px ;
+    margin-right: 100px;
+}

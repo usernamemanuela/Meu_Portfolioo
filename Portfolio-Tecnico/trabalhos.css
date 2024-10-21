@@ -1,0 +1,86 @@
+header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    margin-top: 0px;
+    width: 150px;
+}
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: black; 
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 60px;
+    border: 2px rgb(67, 25, 221) solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: rgb(93, 28, 243);
+    color: white;
+}
+.caixa-texto {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    height: 90vh;
+    position: absolute;
+    z-index: 10;
+    margin-top: 25px;
+    text-align: center;
+    /* position: fixed; */
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+main a {
+    color: black; 
+    text-decoration: none;
+    padding: 40px 70px;
+    margin: 10px;
+    border-radius: 70px;
+    border: 2px rgb(67, 25, 221) solid;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 100px;
+    margin-top: 150;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 5vh;
+}
+
+main a:hover {
+    background-color: rgb(93, 28, 243);
+    color: white;
+}
+main p{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right:50px ;
+}
+

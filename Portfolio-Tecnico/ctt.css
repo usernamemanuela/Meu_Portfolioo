@@ -1,0 +1,95 @@
+header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    margin-top: 0px;
+    width: 150px;
+}
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: black; 
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 60px;
+    border: 2px rgb(67, 25, 221) solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: rgb(93, 28, 243);
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 100px;
+}
+button {
+    color: black; 
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 60px;
+    border: 2px rgb(67, 25, 221) solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    color: white;
+    background-color: #0056b3;
+}
+main a{
+   margin-top: 1000px;
+    color: black; 
+    text-decoration: none;
+    margin: 15px;
+    justify-content: center;
+    gap: 100px; /* Define o espaçamento entre os botões */
+    margin-top: px;
+
+}
+main a:hover {
+    color: rgb(80, 11, 207);
+}
+main{
+    margin-top: 40px;
+}
